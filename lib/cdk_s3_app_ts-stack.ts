@@ -45,12 +45,14 @@ export class CdkStarterStack extends cdk.Stack {
       ],
     });
 
+
+    
     // // bucket policy
     // const bucketPolicy = new s3.BucketPolicy(this, 'bucket-policy-id-2', {
     //   bucket: s3Bucket,
     // });
 
-    // // 👇 add policy statements ot the bucket policy
+    //  add policy statements ot the bucket policy
     // bucketPolicy.document.addStatements(
     //   new iam.PolicyStatement({
     //     effect: iam.Effect.ALLOW,

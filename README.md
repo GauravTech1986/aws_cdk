@@ -1,8 +1,31 @@
-# Welcome to your CDK TypeScript project!
+# S3 Bucket Example in AWS CDK 
 
-This is a blank project for TypeScript development with CDK.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## How to Use
+
+1. Clone the repository
+
+2. Install the dependencies
+
+```bash
+npm install
+```
+
+3. Create the CDK stack
+
+```bash
+npx cdk deploy
+```
+
+4. Open the AWS CloudFormation Console and the stack should be created in your
+   default region
+
+5. Cleanup
+
+```bash
+npx cdk destroy
+```
+
 
 ## Useful commands
 
